@@ -1,0 +1,188 @@
+body{
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content: center;
+	width:375px;
+	background-image:url("./images/icon-facebook.svg");
+	background-size:cover;
+    margin:0;
+}
+#logo{
+	position: absolute;
+	left:20px;
+	top:25px;
+}
+#menu{
+	position: absolute;
+	right:20px;
+	top:20px;
+	width:32px;
+	height:28px;
+}
+#illustrations{
+	width:300px;
+	margin-top:80px;
+    box-sizing:border-box;
+}
+.first-2-divs{
+	margin-top:80px;
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	box-sizing:border-box;
+	width:250px;
+}
+h1{
+	color:hsl(228, 39%, 23%);
+}
+p{
+	color:hsl(0, 0%, 50%);
+}
+.button{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+	color:hsl(0,0%,98%);
+	width:120px;
+	height:45px;
+	border-radius:25px;
+	background-color:hsl(12,88%,59%);
+}
+.numbers{
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content: center;
+	background-color:hsl(12,88%,59%);
+	color:white;
+	width:60px;
+	height:40px;
+	text-align:center;
+	border-radius:25px;
+}
+.benefits-header{
+	margin-top:60px;
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content:flex-start;
+	background-color:hsl(13,100%,96%);
+	height:40px;
+	color:hsl(228,39%,23%);
+	font-size:18px;
+	font-weight:700;
+}
+#wrapper{
+	overflow-x:scroll;
+	overflow-y:hidden;
+    height:230px;
+    width:375px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+    background-color: white;
+}
+.items{
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	width:350px;
+	height:230px;
+	background-color:hsl(0,0%,98%);
+	margin:0 40px 0 0;
+}
+.avatars{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	margin:0 auto;
+}
+h3{
+	width:360px;
+}
+.indicators{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	border:2px solid hsl(12,88%,59%);
+}
+#button-container{
+	margin:100px;
+}
+#bottom-div{
+	box-sizing:border-box;
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;
+	justify-content:center;
+	width:375px;
+	height:300px;
+	padding:0 50px;
+	background-color:hsl(12,88%,59%);
+    text-align:center;
+}
+#bottom-div .button{
+	background-color:white;
+	color:hsl(12,88%,59%);
+	
+}
+#bottom-div h1{
+	color:white; 
+}
+#footer{
+	position:relative;
+	width:375px;
+	height:350px;
+    background-color:hsl(233,12%,13%);
+    color:hsl(0,0%,98%);
+}
+input{
+	margin-top:40px;
+	width:200px;
+	height:30px;
+	border-radius:15px;
+	border:none;
+}
+ul{
+	display:flex;
+	flex-flow:column wrap;
+	list-style-type:none;
+	line-height:25px;
+	height:100px;
+}
+#social-icons-container{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space around;
+	align-items:center;
+	height:35px;
+	
+}
+.social-icons{
+	width:35px;
+	height:35px;
+	margin:0 18px;
+}
+#footer .numbers{
+	position:absolute;
+	right:30px;
+	top:40px;
+}
+#footer #copyright{
+	position: absolute;
+	bottom:5px;
+	left:50px;
+}
+#lastlogo{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-top:20px;
+}
